@@ -630,15 +630,14 @@ footer div {
     margin: 0;
     padding: 0 11px;
     width: 264px;
-    height: 47px;
-    flex-shrink: 0;
+    height: 45px;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: #2E2F42;
     color: #FFF;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -676,7 +675,7 @@ footer div {
 }
 
 .icon-icon-send {
-    color: #FFFFFF;
+    fill: #FFFFFF;
     margin: 5px;
     width: 24px;
     height: 24px;
