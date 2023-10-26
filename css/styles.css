@@ -154,14 +154,20 @@ nav.menu {
     border-radius: 2px;
     height: 4px;
     width: 100%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-phone:hover {
     color: #4D5AE5;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-email:hover {
     color: #4D5AE5;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Main Banner */
@@ -219,6 +225,8 @@ h1.banner-text {
 .order-button:hover {
     background: #404BBF;
     border-color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -265,6 +273,8 @@ h1.banner-text {
 .modal-close-btn:hover {
     fill: currentColor;
     border: 1px solid currentColor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-one, .section-two, .section-three, .customers, footer  {
@@ -380,6 +390,8 @@ h2 {
 .icon-client:hover {
     color: #404BBF;
     border-color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -417,6 +429,8 @@ h2 {
     cursor: pointer;
     background: #404BBF;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -446,6 +460,8 @@ ul.row-one, .row-two, .row-three {
 .portfolio-image:hover .portfolio-image-caption {
     opacity: 1;
     transform: translateY(0);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image {
@@ -515,16 +531,18 @@ ul.row-one, .row-two, .row-three {
 }
 
 .card-title:hover {
-    border: 1px solid var(--CLOUD, #F4F4FD);
-    background: var(--WHITE, #FFF);
+    border: 1px solid #F4F4FD;
+    background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 /* Footer */
 
 footer {
-    background-color: var(--NAVY-BLUE, #2E2F42);
+    background-color: #2E2F42;
     padding-left: 156px;
     height: 312px;
     display: flex;
@@ -598,3 +616,68 @@ footer div {
     flex-shrink: 0;
 }
 
+.form-footer {
+    position: relative;
+    padding: 20px;
+}
+
+.footer-form-title {
+    margin-top: 99px;
+    margin-bottom: 14px;
+}
+
+.footer-email-field {
+    margin: 0;
+    padding: 0 11px;
+    width: 264px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: #2E2F42;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 200% */
+    letter-spacing: 0.48px;
+}
+
+
+.form-footer button {
+    background-color: #4D5AE5;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 153px;
+    left: 325px;
+    border-radius: 4px;
+    color: #FFF;
+    text-align: center;
+
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.form-footer button:hover {
+    background-color: #4D5AE5;
+}
+
+.icon-icon-send {
+    color: #FFFFFF;
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
