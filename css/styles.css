@@ -242,7 +242,7 @@ h1.banner-text {
 }
 
 .modal {
-    width: 408px;
+    width: 480px;
     height: 584px;
     background-color: white;
     border-radius: 4px;
@@ -287,12 +287,61 @@ h1.banner-text {
 /* Order Service Form */
 
 .order-service-form {
+    position: relative;
     display: flex;
-    width: 360px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
+
+.order-service-form-title {
+    color: #2E2F42;
+    text-align: center;
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+label {
+    color: #8E8F99;
+    /* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: 0.48px;
+}
+
+input[type="text"] {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 58px;
+}
+
+input[type="textarea"] {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+}
+
+.form-field-icons {
+    display: flex;
+    color: #2E2F42;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
 /* Section 1 */
 
 
