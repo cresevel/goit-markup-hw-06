@@ -296,6 +296,7 @@ h1.banner-text {
 }
 
 .order-service-form-title {
+    margin: 0;
     color: #2E2F42;
     text-align: center;
 
@@ -329,34 +330,34 @@ h1.banner-text {
 .modal-form-name, 
 .modal-form-phone, 
 .modal-form-email {
-    width: 360px;
-    height: 58px;
+    width: 422px;
+    height: 49px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
 
 .modal-form-comment {
-    width: 360px;
-    height: 336px;
+    width: 422px;
+    height: 87px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
 
 .form-icon-name {
     position: absolute;
-    top: 62px;
-    left: 13px;
+    top: 56px;
+    left: 6px;
 }
 
 .form-icon-phone {
     position: absolute;
-    top: 142px;
-    left: 13px;
+    top: 128px;
+    left: 6px;
 }
 .form-icon-email {
     position: absolute;
-    top: 222px;
-    left: 13px;
+    top: 198px;
+    left: 6px;
 }
 
 .submit-btn {
