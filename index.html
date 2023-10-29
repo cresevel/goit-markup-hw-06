@@ -57,26 +57,33 @@
         </svg>
         </button>
         <form class="order-service-form">
-        <p class="order-service-form-title">Leave your contacts and we will call you back</p>
-        <label for="name">Name:</label>
-        <svg class="form-field-icons">
+        <span class="order-service-form-title">Leave your contacts and we will call you back</span>
+        
+        <label class="modal-name" for="name">
+        <span>Name</span>
+        <input class="modal-form-name" name="name" type="text">
+        <svg class="form-icon-name" height="18px" width="18px">
             <use xlink:href="./images/icons.svg#icon-person-black-18dp-1"></use>
         </svg>
-        <input name="name" type="text">
-        <label for="phone">Phone:</label>
-        <svg class="form-field-icons">
-            <use xlink:href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-        </svg>
-        <input name="phone" type="text">
-        <Label for="email">Email:</Label>
-        <svg class="form-field-icons">
-            <use xlink:href="./images/icons.svg#icon-email-black-18dp-1"></use>
-        </svg>
-        <input name="email" type="text">
-        <label for="comment">Comment</label>
-        <input name="comment" type="textarea" placeholder="Text input">
-        <p><input id="terms" type="checkbox" onclick="agree()" name="terms" value="on" /> I accept the terms and conditions of the Privacy Policy</p>
-        <input type="submit" value="Send">
+        </label>
+        <label for="phone" class="modal-phone">
+            <span>Phone</span>
+            <input class="modal-form-phone" name="phone" type="text">
+            <svg class="form-icon-phone" height="18px" width="18px">
+                <use xlink:href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+        </label>
+        <label for="email" class="modal-email">
+            <span>Email</span>
+            <input class="modal-form-email" name="email" type="text">
+            <svg class="form-icon-email" height="18px" width="18px">
+                <use xlink:href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
+        </label>
+        <label for="comment" class="modal-comment">Comment</label>
+        <input class="modal-form-comment" name="comment" type="textarea" placeholder="Text input">
+        <p><input class="modal-terms" type="checkbox" onclick="agree()" name="terms" value="on" /> I accept the terms and conditions of the <a class="privacy-policy-link" href="/#">Privacy Policy</a></p>
+        <input class="submit-btn" type="submit" value="Send">
     </form>
         </div>
     </div>

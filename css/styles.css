@@ -257,10 +257,10 @@ h1.banner-text {
 .modal-close-btn {
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: white;
+    background-color: #E7E9FC;
     width: 30px;
     height: 30px;
-    color: var(--ocean);
+    color: #2E2F42;
     margin-left: auto;
     display: block;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -271,8 +271,8 @@ h1.banner-text {
 }
 
 .modal-close-btn:hover {
-    fill: currentColor;
-    border: 1px solid currentColor;
+    fill: #404BBF;
+    border: 1px solid #404BBF;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -292,6 +292,7 @@ h1.banner-text {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    font-size: 12px;
 }
 
 .order-service-form-title {
@@ -308,39 +309,87 @@ h1.banner-text {
     letter-spacing: 0.32px;
 }
 
-label {
+.modal-name,
+.modal-phone,
+.modal-email,
+.modal-comment,
+.modal-terms {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     color: #8E8F99;
-    /* Small Text */
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    /* 116.667% */
     letter-spacing: 0.48px;
 }
 
-input[type="text"] {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
+.modal-form-name, 
+.modal-form-phone, 
+.modal-form-email {
     width: 360px;
     height: 58px;
-}
-
-input[type="textarea"] {
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid #8E8F99;
     border-radius: 4px;
-    width: 360px;
-    height: 120px;
 }
 
-.form-field-icons {
-    display: flex;
-    color: #2E2F42;
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
+.modal-form-comment {
+    width: 360px;
+    height: 336px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
+
+.form-icon-name {
+    position: absolute;
+    top: 62px;
+    left: 13px;
+}
+
+.form-icon-phone {
+    position: absolute;
+    top: 142px;
+    left: 13px;
+}
+.form-icon-email {
+    position: absolute;
+    top: 222px;
+    left: 13px;
+}
+
+.submit-btn {
+    color: #FFF;
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    margin: 0 120px;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.privacy-policy-link {
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+
+
 
 /* Section 1 */
 
