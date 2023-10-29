@@ -271,7 +271,8 @@ h1.banner-text {
 }
 
 .modal-close-btn:hover {
-    fill: #404BBF;
+    color:#FFF;
+    background-color: #404BBF;
     border: 1px solid #404BBF;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -336,6 +337,7 @@ h1.banner-text {
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
+
 .modal-form-comment {
     width: 422px;
     height: 87px;
